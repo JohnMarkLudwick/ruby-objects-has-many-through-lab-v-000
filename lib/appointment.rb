@@ -3,7 +3,12 @@ class Appointment
 
   @@all = []
 
-  
+  def initialize
+    @weekday = weekday
+    @month = month
+    @day = day
+    @@all << self
+  end
 
   def self.all
     @@all
