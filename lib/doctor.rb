@@ -17,7 +17,7 @@ class Doctor
 
   def appointments
     many_appointments = self.appointments
-    many
+    array_of_appointments = 
   end
 
 
