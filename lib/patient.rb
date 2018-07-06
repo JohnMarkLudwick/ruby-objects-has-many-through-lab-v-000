@@ -23,8 +23,12 @@ attr_accessor :name
       
   end
   
-  def doctors
+
     
+  def appointments
+    Doctor.all.select { |doctor| doctor.appointment == self}
   end
+    
+
   
 end
