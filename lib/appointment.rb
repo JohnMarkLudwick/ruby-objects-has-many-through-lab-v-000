@@ -4,9 +4,9 @@ class Appointment
   @@all = []
 
   def initialize
-    @weekday = weekday
-    @month = month
-    @day = day
+    @doctor = doctor
+    @patient = patient 
+    @date = date
     @@all << self
   end
 
