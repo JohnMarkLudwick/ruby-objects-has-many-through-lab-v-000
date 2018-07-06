@@ -18,6 +18,9 @@ attr_accessor :name
     Appointment.new(doctor, self, date)
   end
   
+  def appointments
+    
+  end
   
   
 end
