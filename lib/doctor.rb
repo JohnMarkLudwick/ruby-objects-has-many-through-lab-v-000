@@ -19,6 +19,8 @@ class Doctor
     many_appointments = self.appointments
     array_of_appointments = many_appointments.collect do |appointment|
       doctor.appointment
+    end
+    
   end
 
 
