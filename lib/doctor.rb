@@ -17,6 +17,7 @@ class Doctor
 
   def appointments
     many_appointments = self.appointments
+    many
   end
 
 
