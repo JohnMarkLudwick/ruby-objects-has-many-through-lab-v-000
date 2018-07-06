@@ -19,7 +19,7 @@ attr_accessor :name
   end
   
   def appointments
-    
+    appointments.each
   end
   
   
