@@ -1,9 +1,9 @@
 class Appointment
-  attr_accessor :doctor, :patient, :name 
+  attr_accessor :doctor, :patient, :date
 
   @@all = []
 
-  def initialize
+  def initialize(patient, doctor, date)
     @weekday = weekday
     @month = month
     @day = day
