@@ -19,7 +19,7 @@ attr_accessor :name
   end
   
   def appointments
-    Appointments.all.select do |appointments|
+    Appointments.all.select { |appointment| appointment.patient
       
   end
   
