@@ -23,5 +23,8 @@ attr_accessor :name
       
   end
   
+  def doctors
+    
+  end
   
 end
