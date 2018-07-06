@@ -3,7 +3,7 @@ class Appointment
 
   @@all = []
 
-  def initialize(patient, doctor, date)
+  def initialize
     @weekday = weekday
     @month = month
     @day = day
