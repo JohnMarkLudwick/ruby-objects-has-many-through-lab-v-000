@@ -7,7 +7,6 @@ class Doctor
 
   def initialize(name)
     @name = name
-    @appointments = []
     @all_doctors = []
     @@all << self
   end
