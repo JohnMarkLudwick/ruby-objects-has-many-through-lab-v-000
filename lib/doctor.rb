@@ -16,13 +16,7 @@ class Doctor
   end
 
   def appointments
-    
-    
-    many_appointments = self.appointments
-    array_of_appointments = many_appointments.collect do |appointment|
-      appointment.doctor
-    end
-    array_of_appointments
+    Appointment.all.select { |appointment| appointment.doctor == self}
   end
 
 
