@@ -20,7 +20,7 @@ class Doctor
     array_of_appointments = many_appointments.collect do |appointment|
       doctor.appointment
     end
-    
+    array_of_appointments
   end
 
 
